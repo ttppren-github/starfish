@@ -1,0 +1,24 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> =	baby               |
+			bacteria                |
+			camera               |
+			dear                |
+			easy                |
+			file                |
+			basketball                 |
+			impressive               |
+			kind                |
+			learn                   |
+			market              |
+			normal               |
+			officer                |
+			passion                   |
+			really funny	|
+			good night	|
+			see you					 ;
+
+          
+public <digits> = <digit>;

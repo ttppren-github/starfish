@@ -1,0 +1,23 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> =	address               |
+			baby                |
+			call               |
+			decide                |
+			defeat                |
+			delete              |
+			fail                 |
+			hair               |
+			jazz                |
+			kiss                   |
+			layer              |
+			natural                |
+			office               |
+			go to cinema	|
+			genius              |
+			enjoy your life					 ;
+
+          
+public <digits> = <digit>;

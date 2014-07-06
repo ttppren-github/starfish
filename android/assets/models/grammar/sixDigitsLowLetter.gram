@@ -1,0 +1,2721 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> =	  abandon|      
+  aboard|       
+  absolute|     
+  absolutely|   
+  absorb|       
+  abstract|     
+  abundant|     
+  abuse|        
+  academic|     
+  accelerate|   
+  access|       
+  accidental|   
+  accommodate|  
+  accommodation|
+  accompany|    
+  accomplish|   
+  accordance|   
+  accordingly|  
+  account|      
+  accumulate|   
+  accuracy|     
+  accurate|     
+  accustomed|   
+  acid|         
+  acquaintance| 
+  acquire |     
+           
+  adapt|        
+  addition|     
+  additional|   
+  address |     
+  adequate|     
+  adjust|       
+  administration|
+  admission|    
+  admit|        
+  advance|      
+  advanced|     
+  adventure|    
+  advisable|    
+  affair|       
+  affect|       
+  affection|    
+  afford|       
+  afterward|    
+  age|          
+  aggressive|   
+  aircraft|     
+  alarm|        
+  alcohol|      
+
+  amuse|        
+  analyze|      
+  analysis|     
+  ancestor|     
+  anchor|       
+  ancient|      
+  ankle|        
+  announce|     
+  annoy|        
+  annual|       
+  anticipate|   
+  anxiety|      
+  anxious|      
+  apart|        
+  apologize|    
+  apparatus|    
+  appeal|       
+  appetite|     
+  appliance|    
+  applicable|   
+  application|  
+  appoint|      
+  appreciate|   
+  approval|     
+  approve|      
+  approximate|  
+  arbitrary|    
+  architecture| 
+  argue|        
+  argument|     
+  arise|        
+  arithmetic|   
+  arouse|       
+  article|      
+  artificial|   
+  artistic|     
+  ash|          
+  ashamed|      
+  aspect|       
+  assemble|     
+  assembly|     
+  assess|       
+  assign|       
+  assist|       
+  assistance|   
+  associate|    
+  association|  
+  assume|       
+  assure|       
+  astonish|     
+  astronaut|    
+  
+  automatic|    
+  automobile|   
+  auxiliary|    
+  available|    
+  avenue|       
+  await|        
+  awake|        
+  award|        
+  aware|        
+  awful|        
+  awkward|      
+  ax|           
+  baby|           
+  back|         
+  background|   
+   
+  backward|     
+  bacteria|     
+  bad|          
+  badly|        
+  bag|          
+  baggage|      
+  bake|         
+  balance|      
+  ball|         
+  balloon|      
+  banana|       
+  band|         
+  bang|         
+  bank|         
+  bar|          
+  barber|       
+  bare|         
+  bargain|      
+  barrel|       
+  barrier|      
+  base|         
+  basic|        
+  basically|    
+  basin|        
+  basis|        
+  basket|       
+  basketball|   
+  bath|         
+  bathe|        
+  bathroom|     
+  battery|      
+  battle|       
+  bay|          
+  be|           
+  beach|        
+  beam|         
+  bean|         
+  bear|         
+  bear|         
+  beard|        
+  beast|        
+  beat|         
+  beautiful|    
+  beauty|       
+  because|      
+  become|       
+  bed|          
+  bee|          
+  beef|         
+  beer|         
+  before|       
+  beg|          
+  begin|        
+  beginning|    
+  behalf|       
+  behave|       
+  behavior|     
+  behind|       
+  being|        
+  belief|       
+  believe|      
+  bell|         
+  belong|       
+  below|        
+  belt|         
+  bench|        
+  bend|         
+  beneath|      
+  beneficial|   
+  benefit|      
+  beside|       
+  besides|      
+  best|         
+  bet|          
+  better|       
+  between|      
+  beyond|       
+  bible|        
+  bicycle|      
+  big|          
+  bike|         
+  bill|         
+  billion|      
+  bind|         
+  biology|      
+  bird|         
+  birth|        
+  birthday|     
+  biscuit|      
+  bit|          
+  bite|         
+  bitter|       
+  black|        
+  blackboard|   
+  blade|        
+  blame|        
+  blank|        
+  blanket|      
+  blast|        
+  bleed|        
+  blend|        
+  blind|        
+  block|        
+  blood|        
+  bloom|        
+  blow|         
+  blue|         
+  board|        
+  boast|        
+  boat|         
+  body|         
+  boil|         
+  bold|         
+  bolt|         
+  bomb|         
+  bond|         
+  bone|         
+  book|         
+  boot|         
+  border|       
+  bore|         
+  born|         
+  borrow|       
+  boss|         
+  both|         
+  bother|       
+  bottle|       
+  bottom|       
+  bounce|       
+ 
+  bread|        
+  breadth|      
+  break|        
+  breakfast|    
+  breast|       
+  breath|       
+  breathe|      
+  breed|        
+  breeze|       
+
+  building|     
+  bulb|         
+  bulk|         
+  bullet|       
+  bundle|       
+  burden|       
+  bureau|       
+  burn|         
+  burst|        
+  bury|         
+  bus|          
+  bush|         
+  business|     
+  busy|         
+  but|          
+  butter|       
+  button|       
+  buy|          
+  by|           
+
+  cabbage|        
+  cabin|        
+  cabinet|      
+  cable|        
+  cafe|         
+  cage|         
+  cake|         
+  calculate|    
+
+  capable|      
+  capacity|     
+  capital|      
+  captain|      
+  capture|      
+  car|          
+  carbon|       
+  card|         
+  care|         
+  career|       
+  careful|      
+  careless|     
+  cargo|        
+  carpenter|    
+  carpet|       
+
+  celebrate|    
+  cell|         
+  cement|       
+  cent|         
+  centimeter|   
+  central|      
+  center|       
+  century|      
+  ceremony|     
+  certain|      
+  certainly|    
+  certificate|  
+  chain|        
+  chair|        
+  chairman|     
+  chalk|        
+  challenge|    
+  chamber|      
+  champion|     
+  chance|       
+  change|       
+  channel|      
+  chapter|      
+  character|    
+  characteristic
+  charge|       
+  chart|        
+  chase|        
+  cheap|        
+  cheat|        
+  check|        
+  cheek|        
+  cheer|        
+  cheerful|     
+  cheese|       
+  chemical|     
+  chemist|      
+  chemistry|    
+  check|       
+  chess|        
+  chest|        
+  chew|         
+  chicken|      
+  chief|        
+  child|        
+
+  circular|     
+  circulate|    
+  circumference|
+  circumstance| 
+  citizen|      
+  city|         
+  civil|        
+  civilization| 
+  civilize|     
+  claim|        
+  clap|         
+  clarify|      
+  class|        
+  classical|    
+  classification
+  classify|     
+  classmate|    
+  classroom|    
+  claw|         
+  clay|         
+  clean|        
+  clear|        
+  clerk|        
+  clever|       
+  cliff|        
+  climate|      
+  climb|        
+  clock|        
+  close|        
+  cloth|        
+  clothe|       
+  clothes|      
+  clothing|     
+  cloud|        
+  cloudy|       
+  club|         
+  clue|         
+  clumsy|       
+  coach|        
+  coal|         
+  coarse|       
+  coast|        
+  coat|         
+  cock|         
+  code|         
+  coffee|       
+  coil|         
+  coin|         
+  cold|         
+  collapse|     
+  collar|       
+  colleague|    
+  collect|      
+  collection|   
+  collective|   
+  college|      
+  collision|    
+  colony|       
+  color|        
+  column|       
+  comb|         
+  combination|  
+  combine|      
+  come|         
+  comfort|      
+  comfortable|  
+  command|      
+  commander|    
+  comment|      
+  commerce|     
+  commercial|   
+  commission|   
+  commit|       
+  committee|    
+  common|       
+  communicate|  
+  communication|
+  communism|    
+  communist|    
+  community|    
+  companion|    
+  company|      
+  comparative|  
+  compare|      
+  comparison|   
+  compass|      
+  compel|       
+  compete|      
+  competent|    
+  competition|  
+  complain|     
+  complaint|    
+  complete|     
+  complex|      
+  complicated|  
+  component|    
+  compose|      
+  composition|  
+  compound|     
+  comprehension|
+  comprehensive|
+  compress|     
+  comprise|     
+  compromise|   
+  compute|      
+  computer|     
+  conceal|      
+  concentrate|  
+  concentration|
+  concept|      
+  concern|      
+  concerning|   
+  concert|      
+  conclude|     
+  conclusion|   
+  concrete|     
+  condemn|      
+  condense|     
+  condition|    
+  conduct|      
+  conductor|    
+  conference|   
+  confess|      
+  confidence|   
+  confident|    
+  confine|      
+  confirm|      
+  conflict|     
+  confuse|      
+  congratulate| 
+  congress|     
+  conjunction|  
+  connect|      
+  connection|   
+  conquer|      
+  conquest|     
+  conscience|   
+  conscious|    
+  consciousness|
+  consent|      
+  consequence|  
+  consequently| 
+  conservation| 
+  conservative| 
+  consider|     
+  considerable| 
+  considerate|  
+  consideration|
+  consist|      
+  consistent|   
+  constant|     
+  constitute|   
+  constitution| 
+  construct|    
+  construction| 
+  consult|      
+  consume|      
+  consumption|  
+  contact|      
+  contain|      
+  container|    
+  contemporary| 
+  contempt|     
+  content|      
+  content|      
+  contest|      
+  continent|    
+  continual|    
+  continue|     
+  continuous|   
+  contract|     
+  contradiction|
+  contrary|     
+  contrast|     
+  contribute|   
+  control|      
+  convenience|  
+  convenient|   
+  convention|   
+  conventional| 
+  conversation| 
+  conversely|   
+  conversion|   
+  convert|      
+  convey|       
+  convince|     
+  cook|         
+  cool|         
+  cooperate|    
+  coordinate|   
+  cope|         
+  copper|       
+  copy|         
+  cord|         
+  core|         
+  corn|         
+  corner|       
+  corporation|  
+  correct|      
+  correspond|   
+  corresponding|
+  corridor|     
+  cost|         
+  costly|       
+  cottage|      
+  cotton|       
+  cough|        
+  could|        
+  council|      
+  count|        
+  counter|      
+  country|      
+  countryside|  
+  county|       
+  couple|       
+  courage|      
+  course|       
+  court|        
+  cousin|       
+  cover|        
+  cow|          
+  crack|        
+  craft|        
+  crane|        
+  crash|        
+  crawl|        
+  crazy|        
+  cream|        
+  create|       
+  creative|     
+  creature|     
+  credit|       
+  creep|        
+  crew|         
+  crime|        
+  criminal|     
+  crisis|       
+  critic|       
+  critical|     
+  criticism|    
+  criticize|    
+  crop|         
+  cross|        
+  crowd|        
+  crown|        
+  crude|        
+  cruel|        
+  crush|        
+  crust|        
+  cry|          
+  crystal|      
+  cube|         
+  cubic|        
+  cultivate|    
+  culture|      
+  cup|          
+  cupboard|     
+  cure|         
+  curiosity|    
+  curious|      
+  current|      
+  curse|        
+  curtain|      
+  curve|        
+  cushion|      
+  custom|       
+  customer|     
+  cut|          
+  cycle|        
+
+daily|       
+dairy|       
+dam|         
+damage|      
+damp|        
+dance|       
+danger|      
+dangerous|   
+dare|        
+daring|      
+dark|        
+darling|     
+dash|        
+data|        
+date|        
+daughter|    
+dawn|        
+day|         
+daylight|    
+dead|        
+deadly|      
+deaf|        
+deal|        
+
+deed|        
+
+definition|  
+degree|      
+delay|       
+delete|      
+delegation|  
+delicate|    
+delicious|   
+delight|     
+deliver|     
+delivery|    
+demand|      
+democracy|   
+democratic|  
+demonstrate| 
+dense|       
+density|     
+deny|        
+depart|      
+department|  
+departure|   
+depend|      
+dependent|   
+deposit|     
+depress|     
+depth|       
+derive|      
+descend|     
+describe|    
+description| 
+desert|      
+deserve|     
+design|      
+desirable|   
+desire|      
+desk|        
+despair|     
+desperate|   
+despise|     
+despite|     
+destination| 
+destroy|     
+destruction| 
+detail|      
+detect|      
+detection|   
+determination
+determine|   
+develop|     
+development| 
+device|      
+devil|       
+devise|      
+devote|      
+dew|         
+diagram|     
+dial|        
+dialect|     
+dialog|      
+diameter|    
+diamond|     
+diary|       
+dictate|     
+dictation|   
+dictionary|  
+die|         
+differ|      
+difference|  
+different|   
+difficult|   
+difficulty|  
+dig|         
+digest|      
+digital|     
+diligent|    
+dim|         
+dimension|   
+dinner|      
+dip|         
+direct|      
+direction|   
+directly|    
+director|    
+dirt|        
+dirty|       
+disable|     
+disadvantage|
+disagree|    
+disappear|   
+disappoint|  
+disaster|    
+disk|        
+discard|     
+discharge|   
+discipline|  
+disclose|    
+discourage|  
+discover|    
+discovery|   
+
+distress|    
+distribute|  
+distribution|
+district|    
+disturb|     
+ditch|       
+dive|        
+diverse|     
+divide|      
+division|    
+divorce|     
+do|          
+dock|        
+doctor|      
+document|    
+dog|         
+dollar|      
+domestic|    
+donkey|      
+door|        
+dorm|        
+dormitory|   
+dose|        
+dot|         
+double|      
+doubt|       
+doubtful|    
+doubtless|   
+down|        
+downstairs|  
+downward|    
+dozen|       
+draft|       
+drag|        
+dragon|      
+drain|       
+drama|       
+dramatic|    
+draw |     
+drawer|      
+drawing|     
+dread|       
+dream|       
+dress|       
+drift|       
+drill|       
+drink|       
+drip|        
+drive|       
+driver|      
+drop|        
+drought|     
+drown|       
+drug|        
+drum|        
+drunk|       
+dry|         
+duck|        
+due|         
+dull|        
+dumb|        
+dump|        
+durable|     
+duration|    
+during|      
+dusk|        
+dust|        
+duty|        
+dwelling|    
+dye|         
+dying|       
+dynamic|     
+
+each|           
+  eager|        
+  eagle|        
+  ear|          
+  early|        
+  earn|         
+  earnest|      
+  earth|        
+  earthquake|                 
+  ease|                       
+  east|                       
+  eastern|                    
+  easy|                       
+  eat|                        
+  echo|                       
+  economic|                   
+  economical|                 
+  economy|                    
+  edge|                       
+  edition|                    
+  editor|                     
+  educate|                    
+  education|                  
+  effect|                     
+  effective|                  
+  efficiency|                 
+  efficient|                  
+  effort|                     
+  egg|                        
+  eight|                      
+  eighteen|                   
+  eighth|                     
+  eighty|                     
+  either|                     
+  elaborate|                  
+  elastic|                    
+  elder|                      
+  elect|                      
+  election|                   
+  electric|                   
+  electrical|                 
+  electricity|                
+  electron|                   
+  electronic|                 
+  element|                    
+  elementary|                 
+  elephant|                   
+  elevator|                   
+  eleven|                     
+  eliminate|                  
+  else|                       
+  elsewhere|                  
+  embarrass|                  
+  embrace|                    
+  emerge|                     
+  emergency|                  
+  emit|                       
+  emotion|                    
+  emotional|                  
+  emperor|                    
+  emphasis|                   
+  emphasize|                  
+  empire|                     
+  employ|                     
+  employee|                   
+  employer|                   
+  employment|                 
+  empty|                      
+  enable|                     
+  enclose|                    
+  encounter|                  
+  encourage|                  
+  end|                        
+  ending|                     
+  endless|                    
+  endure|                     
+  enemy|                      
+  energy|                     
+  enforce|                    
+  engage|                     
+  engine|                     
+  engineer|                   
+  engineering|                
+  enlarge|                    
+  enormous|                   
+  enough|                     
+  enquire|                                        
+  ensure|                     
+  entertain|                  
+  enthusiasm|                 
+  entitle|                    
+  entry|                      
+  environment|                  
+            
+         
+  evil|                       
+  evolution|                  
+  evolve|                     
+  exact|                      
+  exaggerate|                 
+  exam|                       
+  examination|                 
+  examine|                    
+  example|                    
+  exceed|                     
+  exceedingly|                
+  excellent|                  
+  except|                     
+  exception|                  
+  excess|                     
+  excessive|                  
+  exchange|                   
+  excite|                     
+  exciting|                   
+  exclaim|                    
+  exclude|                    
+  exclusively|                
+  excursion|                  
+  excuse|                     
+  execute|                    
+  executive|                  
+  exercise|                   
+  exert|                      
+  exhaust|                    
+  exhibit|                    
+  exhibition|                 
+  exist|                      
+  existence|                  
+  exit|                       
+  expand|                     
+  expansion|                  
+  expect|                     
+  expectation|                
+  expense|                    
+  expensive|                  
+  experience|                 
+  experiment|                 
+  experimental|               
+  expert|                     
+  explain|                    
+  explanation|                
+  explode|                    
+  exploit|                    
+  explore|                    
+  explosion|                  
+  explosive|                  
+  export|                     
+  expose|                     
+  exposure|                   
+  express|                    
+  expression|                 
+  extend|                     
+  extension|                  
+  extensive|                  
+  extent|                     
+  exterior|                   
+    
+  fade|                       
+  fail|                       
+  failure|                    
+
+  fancy|                      
+  far|                        
+  fare|                       
+  farewell|                   
+  farm|                       
+  farmer|                     
+  farther|                    
+  fashion|                    
+  fashionable|                
+  fast|                       
+  fasten|                     
+  fat|                        
+  fatal|                      
+  fate|                       
+  father|                     
+  fatigue|                    
+  fault|                      
+  faulty|                     
+  favor|                     
+    
+  fellow|                     
+  female|                     
+  fence|                      
+  fertile|                    
+  fertilizer|                 
+  festival|                   
+  fetch|                      
+  fever|                      
+
+  find|                       
+  finding|                    
+  fine|                       
+  fine|                       
+  finger|                     
+  finish|                     
+  fire|                       
+  fireman|                    
+  firm|                       
+  first|                      
+  fish|                       
+  fisherman|                  
+  fit|                        
+  five|                       
+  fix|                        
+  flag|                       
+  flame|                      
+  flash|                      
+  flat|                       
+  flat|                       
+  flavor|                    
+  fleet|                      
+  flesh|                      
+  flexible|                   
+  flight|                     
+  float|                      
+  flock|                      
+  flood|                      
+  floor|                      
+  flour|                      
+  flourish|                   
+  flow|                       
+  flower|                     
+  fluent|                     
+  fluid|                      
+  fly|                        
+  focus|                      
+  fog|                        
+  fold|                       
+  folk|                       
+  follow|                     
+  following|                  
+  fond|                       
+  food|                       
+  fool|                       
+  foolish|                    
+  foot|                       
+  football|                   
+  footstep|                   
+  for|                        
+  forbid|                     
+  force|                      
+  forecast|                   
+  forehead|                   
+  foreign|                    
+  foreigner|                  
+  forest|                     
+  forever|                    
+ 
+  fountain|                   
+  four|                       
+  fourteen|                   
+  fox|                        
+  fraction|                   
+  fragment|                   
+  frame|                      
+  framework|                  
+  frank|                      
+  free|                       
+  freedom|                    
+  freeze|                     
+  freight|                    
+  french|                     
+  frequency|                  
+  frequent|                   
+  fresh|                      
+  friction|                   
+  friday|                     
+  fridge|                     
+  friend|                     
+  friendly|                   
+  friendship|                 
+  frighten|                   
+  frog|                       
+  from|                       
+  front|                      
+  frontier|                   
+  frost|                      
+  frown|                      
+  fruit|                      
+  fruitful|                   
+  fry|                        
+  fuel|                       
+  fulfill|                     
+  full|                       
+  fun|                        
+  function|                   
+  fund|                       
+  fundamental|                
+  funeral|                    
+  funny|                      
+  fur|                        
+  furnace|                    
+  furnish|                    
+  furniture|                  
+  further|                    
+  furthermore|                
+  future|                     
+
+
+gain|                         
+  gallon|                     
+  game|                       
+  gang|                       
+  gap|                        
+  garage|                     
+  garden|                     
+  gardener|                   
+  gas|                        
+  gaseous|                    
+  gasoline|                   
+  gate|                       
+  gather|                     
+  gauge|                      
+  gay|                        
+  gaze|                       
+  general|                    
+  generally|                  
+
+  glass|                      
+  glimpse|                    
+  globe|                      
+  glorious|                   
+  glory|                      
+  glove|                      
+  glow|                       
+  glue|                       
+  go|                         
+  goal|                       
+  goat|                       
+  god|                        
+  gold|                       
+  golden|                     
+  good|                       
+  goodbye|                    
+  goods|                      
+  goose|                      
+  govern|                     
+  government|                 
+  governor|                   
+  grace|                      
+  graceful|                   
+  grade|                      
+  gradual|                    
+  graduate|                   
+  grain|                      
+  gram|                       
+  grammar|                    
+  grammatical|                                  
+  grand|                      
+  grandfather|                
+  grandmother|                
+  grant|                      
+  grape|                      
+  graph|                      
+  grasp|                      
+  grass|                      
+  grateful|                   
+  gratitude|                  
+  grave|                      
+  gravity|                    
+  gray|                       
+  great|                      
+  greedy|                                           
+  green|                      
+  greet|                      
+  greeting|                   
+  grey|                       
+  grind|                      
+  grip|                       
+  grocer|                     
+  gross|                      
+  ground|                     
+  group|                      
+  grow|                       
+  growth|                     
+  guarantee|                  
+  guard|                      
+  guess|                      
+  guest|                      
+  guidance|                   
+  guide|                      
+  guilty|                     
+  gulf|                       
+  gum|                        
+  gun|                        
+  gym|                        
+  gymnasium|                  
+
+habit|                        
+  hair|                       
+  half|                       
+  hall|                       
+  halt|                       
+  hammer|                     
+  hand|                       
+  handful|                    
+  handkerchief|               
+  handle|                     
+  handsome|                   
+  handwriting|                
+  handy|                      
+  hang|                       
+  happen|                     
+  happy|                      
+  harbor|                    
+  hard|                       
+  harden|                     
+  hardly|                     
+  hardship|                   
+  hardware|                   
+  harm|                       
+  harmony|                    
+  harness|                    
+  harsh|                      
+  harvest|                    
+  haste|                      
+  hat|                        
+  hate|                       
+  hatred|                     
+  have|                       
+  hay|                        
+  hazard|                     
+  he|                         
+  head|                       
+  headache|                   
+  heading|                    
+  headline|                   
+  headquarters|               
+  health|                     
+  healthy|                    
+
+  hence|                      
+  her|                        
+  herd|                       
+  here|                       
+  hero|                       
+  heroic|                     
+  hers|                       
+  herself|                    
+  hesitate|                   
+  hi|                         
+  hide|                       
+  high|                       
+  highly|                     
+  highway|                    
+  hill|                       
+  hillside|                   
+  him|                        
+  himself|                    
+  hint|                       
+  hire|                       
+  his|                        
+  historical|                 
+  history|                    
+  hit|                        
+  hobby|                      
+  hold|                       
+  hole|                       
+  holiday|                    
+  hollow|                     
+  holy|                       
+  home|                       
+  honest|                     
+  honey|                      
+  honor|                     
+  honorable|                 
+  hook|                       
+  hope|                       
+  hopeful|                    
+  hopeless|                   
+  horizon|                    
+  horizontal|                 
+  horn|                       
+  horror|                     
+  horse|                      
+  horsepower|                 
+  hospital|                   
+  host|                       
+  hostile|                    
+  hot|                        
+  hotel|                      
+  hour|                       
+  house|                      
+  household|                  
+  housewife|                  
+  how|                        
+  however|                    
+  huge|                       
+  human|                      
+  humble|                     
+  humorous|                   
+  humor|                     
+  hundred|                    
+  hunger|                     
+  hungry|                     
+  hunt|                       
+  hurry|                      
+  hurt|                       
+  husband|                    
+  hut|                        
+  hydrogen|                   
+
+
+                           
+  ice|                       
+
+   idea|                       
+  ideal|                      
+  identical|                  
+  identify|                   
+  idle|                       
+  if|                         
+  ignorant|                   
+  ignore|                     
+  ill|                        
+  illegal|                    
+  illness|                    
+  illustrate|                 
+  illustration|               
+  image|                      
+  imaginary|                  
+  imagination|                  
+  imagine|                    
+  imitate|                    
+  immediate|                  
+  immense|                    
+  immigrant|                  
+  impact|                     
+  impatient|                  
+  implication|                
+  imply|                      
+  import|                     
+  importance|                 
+  important|                  
+  impose|                     
+  impossible|                 
+  impress|                    
+  
+  initial|                    
+  injection|                  
+  injure|                     
+  injury|                     
+  ink|                        
+  inn|                        
+  inner|                      
+  innocent|                   
+  input|                      
+  inquire|                    
+  inquiry|                    
+  insect|                     
+  insert|                       
+  inside|                     
+  insist|                     
+  inspect|                    
+  inspire|                    
+  install|                    
+  installation|               
+  instance|                   
+  instant|                    
+  instead|                    
+  instinct|                   
+  institute|                  
+  institution|                
+  instruct|                   
+  instruction|                
+  instrument|                 
+  insult|                   
+  insurance|                
+  insure|                   
+  intellectual|             
+  intelligence|             
+  intelligent|              
+  intend|                   
+  intense|                    
+  intensity|                  
+  intensive|                  
+  intention|                  
+  interaction|                
+  interest|                   
+  interesting|                
+  interfere|                  
+  interference|                
+  interior|                   
+  intermediate|               
+  internal|                   
+  international|              
+  interpret|                  
+  interpretation|               
+  interrupt|                  
+  interval|                   
+  interview|                  
+  intimate|                   
+  into|                       
+  introduce|                  
+  introduction|               
+  invade|                     
+  invasion|                   
+  invent|                     
+  invention|                  
+  inventor|                   
+  invest|                     
+  investigate|                
+  investment|                 
+  invisible|                  
+  invitation|                 
+  invite|                     
+  involve|                    
+  inward|                     
+  iron|                       
+  island|                     
+  isolate|                    
+         
+  jazz|                       
+  jealous|                    
+  jet|                        
+  jewel|                      
+
+  keyboard|                   
+  kick|                       
+  kid|                        
+  kill|                       
+  kilogram|                   
+  kilometer|                  
+  kind|                       
+  kind|                       
+  kindness|                   
+  king|                       
+  kingdom|                    
+  kiss|                       
+  kitchen|                    
+  knee|                       
+  kneel|                      
+  knife|                      
+  knock|                      
+ 
+  land|                       
+  landlord|                   
+  lane|                       
+  language|                   
+  lap|                        
+  large|                      
+  largely|                    
+  laser|                      
+
+  law|                        
+  lawn|                       
+  lawyer|                     
+  lay|                        
+  layer|                      
+  layout|                     
+  lazy|                       
+  lead|                       
+  lead|                       
+  leader|                     
+  leadership|                 
+  leading|                    
+  leaf|                       
+  league|                     
+  leak|                       
+  lean|                       
+  leap|                       
+  learn|                      
+  learned|                    
+  learning|                   
+  least|                      
+  leather|                    
+  leave|                      
+  lecture|                    
+  left|                       
+  leg|                        
+  legal|                      
+  leisure|                    
+  lend|                       
+  length|                     
+  lens|                       
+  less|                       
+  lessen|                     
+  lesson|                     
+  lest|                       
+  let|                        
+  letter|                     
+  level|                      
+  lever|                      
+  liable|                     
+  liberal|                    
+  liberate|                   
+  liberty|                    
+  librarian|                  
+  library|                    
+  license|                    
+  lid|                        
+  lie|                        
+  lie|                        
+  life|                       
+  lifetime|                   
+  lift|                       
+  light|                      
+  light|                      
+  lightning|                  
+  like|                       
+  like|                       
+  likely|                     
+  likewise|                   
+  limb|                       
+  lime|                       
+  limit|                      
+  limitation|                 
+  limited|                    
+  line|                       
+  link|                       
+  lion|                       
+  lip|                        
+  liquid|                     
+  liquor|                     
+  list|                       
+  listen|                     
+  liter|                                         
+  literary|                   
+  literature|                 
+  little|                     
+  live|                       
+  lively|                     
+  liver|                      
+  living|                     
+      
+  load|                       
+  loaf|                       
+  loan|                       
+  local|                      
+  locate|                     
+  location|                   
+  lock|                       
+  lodge|                      
+  log|                        
+  logic|                      
+  logical|                    
+  lonely|                     
+  long|         
+  lot|                        
+  loud|                       
+  love|                       
+  lovely|                     
+  lover|                      
+  low|                        
+  lower|                      
+  loyal|                      
+  loyalty|                    
+  luck|                       
+  lucky|                      
+  luggage|                    
+  lump|                       
+  lunch|                      
+  lung|                       
+  luxury|                     
+
+
+machine|                      
+  machinery|                  
+  mad|                        
+  magazine|                   
+  magic|                      
+  magnet|                     
+  magnetic|                   
+  magnificent|                
+  maid|                       
+  mail|                       
+  main|                       
+  mainland|                   
+  maintain|                   
+  maintenance|                
+  major|                      
+  majority|                   
+  make|                       
+  male|                       
+  man|                        
+  manage|                     
+  management|                 
+  manager|                    
+  mankind|                    
+  manner|                     
+  manual|                    
+  manufacture|               
+  manufacturer|              
+  many|                      
+  map|                        
+  march|                      
+  march|                      
+  margin|                     
+  marine|                     
+  mark|                       
+  market|                     
+  marriage|                   
+  married|                    
+  marry|                      
+  marvelous|                                      
+  mask|                       
+  mass|                       
+  master|                     
+  mat|                        
+  match|                      
+  match|                      
+  mate|                       
+  material|                   
+  mathematical|                
+  mathematics|                
+  math|                      
+  matter|                     
+  mature|                     
+  maximum|                    
+  may|                        
+  may|                        
+  maybe|                      
+  mayor|                      
+  me|                         
+  meal|                       
+  mean|                       
+  mean|                       
+  mean|                       
+  meaning|                    
+  means|                      
+  meantime|                   
+  meanwhile|                  
+  measure|                    
+  measurement|                
+  meat|                       
+  mechanic|                   
+  mechanical|                 
+  mechanics|                  
+  medical|                    
+  medicine|                   
+  medium|                     
+  meet|                       
+  meeting|                    
+  melt|                       
+  member|                     
+  memorial|                   
+  memory|                     
+  mend|                       
+  mental|                     
+  mention|                    
+  menu|                       
+  merchant|                   
+  mercury|                    
+  mercury|                    
+  mercy|                      
+  mere|                       
+  merely|                     
+         
+  middle|                     
+  midnight|                   
+
+  mine|                       
+  mine|                       
+  mineral|                    
+  minimum|                    
+  minister|                   
+  ministry|                   
+  minor|                      
+  minority|                   
+  minus|                      
+  minute|                     
+  minute|                     
+  miracle|                    
+  mirror|                     
+  miserable|                  
+  mislead|                    
+  miss|                       
+  miss|                       
+  missile|                    
+  missing|                    
+  mission|                    
+  mist|                       
+  mistake|                    
+  misunderstand|              
+  mix|                        
+  mixture|                    
+  mobile|                     
+  mode|                       
+  model|                      
+  moderate|                   
+  modern|                     
+    
+  mood|                       
+  moon|                       
+  moral|                      
+  more|                       
+  moreover|                   
+  morning|                    
+  mosquito|                   
+  most|                       
+  mostly|                     
+  mother|                     
+  motion|                     
+  motivate|                   
+  motive|                     
+  motor|                      
+  mould|                      
+  mount|                      
+  mountain|                   
+  mouse|                      
+  mouth|                      
+  move|                       
+  movement|                   
+  movie|                      
+  much|                       
+  mud|                        
+  multiple|                   
+  multiply|                   
+  murder|                     
+  muscle|                     
+  museum|                     
+  music|                      
+  musical|                    
+  musician|                   
+  must|                       
+  mutual|                     
+  my|                         
+  myself|                     
+  mysterious|                 
+  mystery|                    
+
+
+  nail|                         
+  naked|                      
+
+ 
+ 
+  name|                       
+  namely|                     
+  narrow|                     
+  nation|                     
+  national|                   
+  nationality|                
+  native|                     
+  natural|                    
+  naturally|                  
+  nature|                     
+  naval|                      
+  navigation|                 
+  navy|                       
+  near|                       
+  nearby|                     
+  nearly|                     
+  neat|                       
+  necessarily|                
+  necessary|                  
+  necessity|                  
+  neck|                       
+  need|                       
+  needle|                     
+  negative|                   
+  neglect|                    
+  negro|                      
+  neighbor|                  
+  neighborhood|              
+  neither|                    
+  nephew|                     
+  nerve|                      
+  nervous|                    
+  nest|                       
+  net|                        
+  network|                    
+  neutral|                    
+  never|                      
+  nevertheless|               
+  new|                        
+  news|                       
+  newspaper|                  
+  next|                       
+  nice|                       
+  niece|                      
+  night|                      
+    
+  nobody|                     
+  nod|                        
+  noise|                      
+  noisy|                      
+  none|                       
+  nonsense|                   
+  noon|                       
+  nor|                        
+  normal|                     
+  normally|                   
+  north|                      
+  northeast|                  
+  northern|                   
+  northwest|                  
+  nose|                       
+  not|                        
+  note|                       
+  notebook|                   
+  nothing|                    
+  notice|                     
+  noticeable|                 
+  noun|                       
+  novel|                      
+  november|                   
+  now|                        
+  nowadays|                   
+  nowhere|                    
+  nuclear|                    
+  nucleus|                    
+  nuisance|                   
+  number|                     
+  numerous|                   
+  nurse|                      
+  nursery|                    
+  nut|                        
+
+
+obey|                         
+  object|                     
+ 
+
+  object|                     
+  objection|                  
+  objective|                  
+  oblige|                     
+  observation|                 
+  observe|                    
+  observer|                   
+  obstacle|                   
+  obtain|                     
+  obvious|                    
+  occasion|                   
+  occasional|                 
+  occupation|                 
+  occupy|                     
+  occur|                      
+  occurrence|                 
+  ocean|                      
+  o'clock|                                     
+  odd|                        
+  of|                         
+  off|                        
+  offend|                     
+  offer|                      
+  office|                     
+  officer|                    
+  official|                   
+  often|                      
+               
+  oneself|                    
+  onion|                      
+  only|                       
+  onto|                       
+  open|                       
+  opening|                    
+  opera|                      
+  operate|                    
+  operation|                  
+  operational|                 
+  operator|                   
+  opinion|                    
+  opponent|                   
+  opportunity|                
+  oppose|                     
+  opposite|                   
+  optical|                    
+  optimistic|                 
+  optional|                   
+  or|                         
+  oral|                       
+  orange|                     
+  orbit|                      
+  orchestra|                  
+  order|                      
+  orderly|                    
+  ordinary|                   
+  ore|                        
+  organ|                      
+  organic|                  
+  organism|                 
+  organization|             
+  organize|                 
+  origin|                   
+  original|                   
+  other|                      
+  otherwise|                  
+  ought|                      
+  ounce|                      
+  our|                        
+  ours|                       
+  ourselves|                  
+  out|                        
+  outcome|                    
+  outdoors|                   
+  outer|                      
+  outlet|                     
+  outline|                    
+  outlook|                    
+  output|                     
+  outset|                     
+  outside|                    
+  outstanding|                
+  outward|                    
+  oven|                       
+  over|                       
+  overall|                    
+  overcoat|                   
+  overcome|                   
+  overhead|                  
+  overlook|                  
+              
+
+
+  pace|                        
+  pacific|                   
+  pack|                      
+  package|                   
+  packet|                    
+  pad|                       
+  page|                      
+  pain|                      
+  painful|                   
+  paint|                     
+  painter|                   
+  painting|                  
+
+  paper|                     
+  parade|                    
+  paragraph|                 
+  parallel|                  
+  parcel|                    
+  pardon|                    
+  parent|                    
+  park|                      
+  parliament|                
+  part|                      
+  partial|                   
+  participate|               
+  particle|                  
+  particular|                
+  particularly|              
+  partly|                    
+  partner|                   
+  party|                     
+  pass|                      
+  passage|                   
+  passenger|                 
+  passion|                   
+  passive|                   
+  passport|                  
+
+  paw|                       
+  pay|                       
+  payment|                   
+  pea|                       
+  peace|                     
+  peaceful|                  
+  peach|                     
+  peak|                      
+  pear|                      
+  peasant|                   
+  peculiar|                  
+  pen|                       
+  pencil|                    
+  penetrate|                 
+  penny|                     
+  people|                    
+
+  permit|                    
+  persist|                   
+  person|                    
+  personal|                  
+  personnel|                 
+  perspective|               
+  persuade|                  
+  pessimistic|               
+  pet|                       
+  petrol|                    
+  petroleum|                 
+  phase|                     
+  phenomenon|                
+  philosopher|               
+  philosophy|                
+  phone|                     
+  photo|                     
+  photograph|                
+  phrase|                    
+  physical|                  
+  physician|                 
+  physicist|                 
+  physics|                   
+  piano|                     
+
+  pinch|                     
+  pine|                      
+  pink|                      
+  pint|                      
+  pioneer|                   
+  pipe|                      
+  pit|                       
+  pitch|                     
+  pitch|                     
+  pity|                      
+  place|                     
+  plain|                     
+  plan|                      
+  plane|                     
+  planet|                    
+
+  pleasure|                  
+  plentiful|                 
+  plenty|                    
+  plot|                      
+  plough|                    
+  plug|                      
+  plunge|                    
+  plural|                    
+  plus|                      
+  pocket|                    
+  poem|                      
+  poet|                      
+  poetry|                    
+  point|                     
+  poison|                    
+  poisonous|                 
+  pole|                      
+  pole|                      
+  police|                    
+  policeman|                 
+  policy|                    
+  polish|                    
+  polite|                    
+  political|                 
+  politician|                
+  politics|                  
+  pollute|                   
+  pollution|                 
+  pond|                      
+  pool|                      
+  pool|                      
+  poor|                      
+  pop|                       
+  pop|                       
+  popular|                   
+  population|                
+  pork|                      
+
+  post|                      
+  post|                      
+  post|                      
+  postage|                   
+  postman|                   
+  postpone|                  
+  pot|                       
+  potato|                    
+  potential|                 
+  pound|                     
+
+  preceding|                 
+  precious|                  
+  precise|                   
+  precision|                 
+  predict|                   
+  preface|                   
+  prefer|                    
+  preferable|                
+  preference|                
+  prejudice|                 
+  preliminary|               
+  preparation|               
+  prepare|                               
+  prescribe|                 
+  presence|                  
+  present|                   
+  present|                   
+  present|                   
+
+  primarily|                 
+  primary|                   
+  prime|                     
+  primitive|                 
+  prince|                    
+  princess|                  
+  principal|                 
+  principle|                 
+  print|                     
+  prior|                     
+  prison|                    
+  prisoner|                  
+  private|                   
+  privilege|                 
+  prize|                     
+  probability|               
+  probable|                  
+    
+  progress|                  
+  progressive|               
+  prohibit|                  
+  project|                   
+  prominent|                 
+  promise|                    
+  promote|                    
+  prompt|                     
+  pronoun|                    
+  pronounce|                  
+  pronunciation|                
+  proof|                      
+  proper|                     
+  property|                   
+  proportion|                 
+  proportional|               
+  proposal|                
+  propose|                 
+  prospect|                
+  prosperity|              
+  prosperous|              
+  protect|                 
+  protection|              
+  protective|              
+  protein|                 
+  protest|                 
+  proud|                   
+  prove|                   
+  provide|                    
+  provided|                   
+  province|                   
+  publish|                    
+  pull|                       
+  pulse|                      
+  pump|                       
+  punch|                      
+  punch|                      
+  punctual|                   
+  punish|                     
+  pupil|                      
+  pupil|                      
+  purchase|                   
+  pure|                       
+  purple|                     
+  purpose|                    
+  purse|                      
+  pursue|                     
+  push|                       
+  put|                        
+  puzzle|                     
+
+
+qualify|                      
+  quality|                    
+  quantity|                   
+  quarrel|                    
+  quarter|                    
+  queen|                      
+  question|                   
+  queue|                      
+  quick|                      
+  quiet|                      
+  quit|                       
+  quite|                      
+  quotation|                  
+  quote|                      
+
+
+
+  rainy|                      
+  raise|                      
+  range|                      
+  rank|                       
+  rapid|                      
+  rare|                       
+  rarely|                     
+  rat|                        
+  rate|                       
+  rather|                     
+  ratio|                      
+  rational|                   
+  raw|                        
+  ray|                        
+  reach|                      
+  react|                      
+  reaction|                   
+  read|                       
+  reader|                     
+  reading|                    
+  ready|                      
+  real|                       
+  reality|                    
+  realize|                    
+  really|                     
+  realm|                      
+  rear|                       
+  rear|                       
+  reason|                     
+  reasonable|                 
+  rebel|                      
+  recall|                     
+  receipt|                    
+  receive|                    
+  receiver|                   
+  recent|                     
+  recently|                   
+  reception|                  
+  recognition|                
+  recognize|                  
+  recommend|                  
+  recommendation|             
+  record|                     
+  recorder|                   
+  recover|                    
+  recovery|                   
+  red|                        
+  reduce|                     
+  reduction|                  
+  refer|                      
+  reference|                  
+  refine|                     
+  reflect|                    
+  reflection|                                
+  reform|                     
+  refresh|                    
+  refrigerator|                 
+  refusal|                    
+  refuse|                     
+  regard|                     
+  regarding|                  
+  regardless|                 
+  region|                     
+  register|                   
+  regret|                     
+  regular|                    
+  regulate|                   
+  regulation|                 
+  reinforce|                  
+  reject|                     
+  relate|                     
+  relation|                   
+  relationship|               
+  relative|                   
+  relativity|                 
+  relax|                      
+  release|                    
+  relevant|                   
+  reliability|                
+  reliable|                   
+  relief|                     
+  relieve|                    
+  religion|                   
+  religious|                  
+  reluctant|                  
+  rely|                       
+  remain|                     
+  remark|                     
+  remarkable|                 
+  remedy|                     
+  remember|                   
+  remind|                     
+  remote|                     
+  removal|                    
+  remove|                     
+  render|                     
+  renew|                      
+  rent|                       
+  repair|                     
+  repeat|                     
+  repeatedly|                 
+  repetition|                 
+  reply|                      
+  report|                 
+  reporter|               
+  represent|              
+  representative|         
+  reproduce|              
+  republic|               
+  reputation|             
+  request|                
+  require|                
+  requirement|                
+  rescue|                     
+  resemble|                   
+  reserve|                                    
+  residence|                  
+  resident|                   
+  resign|                     
+  resist|                     
+  resistance|                 
+  resistant|                  
+  resolution|                 
+  resolve|                    
+
+  restrain|                   
+  restraint|                  
+  restrict|                   
+  resume|                     
+  retain|                     
+  retire|                     
+  retreat|                    
+  reveal|                     
+  reverse|                    
+  review|                     
+  revise|                     
+  revolt|                     
+  revolution|                
+  revolutionary|             
+  reward|                    
+  rhythm|                    
+
+                  
+  routine|                    
+  row|                        
+
+sack|                         
+  sacrifice|                  
+  saddle|                     
+  sail|                       
+  sake|                       
+  sample|                     
+  satellite|                
+  satisfactory|             
+  saucer|                   
+  sausage|                    
+  saw|                        
+  say|                        
+  scale|                      
+  scale|                      
+  scan|                       
+  scarcely|                   
+  scatter|                    
+  scenery|                    
+  schedule|                   
+  scheme|                     
+  scholar|                    
+  scientific|                 
+  scissors|                   
+  score|                      
+  scout|                      
+  scrape|                     
+  scratch|                    
+  screw|                      
+  seal|                       
+  seal|                       
+  secondary|                  
+  secretary|                  
+  section|                    
+  secure|                     
+  security|                   
+  seed|                       
+  seek|                       
+  seize|                      
+  semiconductor|              
+  senate|                     
+  senior|                     
+  sensible|                   
+  sensitive|                  
+  separate|                   
+  sequence|                   
+  series|                     
+  serve|                      
+  session|                    
+  setting|                    
+  settle|                     
+  settlement|                 
+  severe|                     
+  sew|                        
+  shade|                      
+  shave|                      
+  shear|                      
+  shed|                       
+  shed|                       
+  sheet|                      
+  shelf|                      
+  shelter|                    
+  shield|                     
+  shift|                      
+  shiver|                     
+  shoot|                      
+  shore|                      
+  shortage|                   
+  shortly|                    
+  shot|                       
+  shower|                     
+  shriek|                     
+  sideways|                              
+  sign|                       
+  signal|                     
+  signature|                  
+  significance|                
+  significant|                 
+  silence|                    
+  silent|                     
+  silk|                       
+  silly|                      
+  silver|                     
+  similar|                    
+  similarly|                  
+  simplicity|                 
+  simplify|                   
+  simply|                     
+  sincere|                    
+  singular|                   
+  site|                       
+  sketch|                     
+  skilled|                    
+  skillful|                   
+  skim|                       
+  slam|                       
+  sleeve|                     
+  slender|                    
+  slice|                      
+  slide|                      
+  slippery|                   
+  slit|                       
+  slope|                      
+  smart|                      
+  soak|                       
+  soil|                       
+  solar|                      
+  sole|                       
+  sole|                       
+  solemn|                     
+  solid|                      
+  soluble|                    
+  solution|                   
+  solve|                      
+  somebody|                   
+  somehow|                    
+  sometime|                   
+  somewhat|                   
+  sophisticated|              
+  sore|                       
+  sorrow|                     
+  sort|                       
+  sound|                      
+  sour|                                     
+  spade|                      
+  span|                       
+  spare|                      
+  spark|                      
+  specialist|                 
+  specialize|                 
+  specific|                   
+  specify|                    
+  specimen|                   
+  sphere|                     
+  spill|                      
+  spin|                       
+  spite|                      
+  split|                      
+  spoil|                      
+  sponsor|                    
+  sportsman|                  
+  spray|                      
+  spring|                     
+  spur|                       
+  square|                     
+  squeeze|                    
+  stability|                  
+  stable|                     
+  stable|                     
+  stack|                      
+  staff|                      
+  stage|                      
+  stain|                      
+  stair|                      
+  stake|                      
+  stale|                      
+  static|                     
+  statistical|                
+  statue|                     
+  status|                     
+  steady|                     
+  steam|                      
+  steamer|                    
+  steel|                      
+  steep|                      
+  steer|                      
+  stem|                       
+  sticky|                     
+  stiff|                      
+  stimulate|                  
+  sting|                      
+  stir|                       
+  stock|                      
+  stocking|                   
+  stoop|                      
+  storage|                    
+  store|                      
+  storey|                     
+  stove|                      
+  strain|                     
+  strange|                    
+  stranger|                   
+  strap|                      
+  strategy|                   
+  straw|                      
+  strengthen|                 
+  stress|                     
+  stretch|                    
+  string|                     
+  strip|                      
+  stripe|                     
+  stroke|                     
+  stroke|                     
+  structural|                 
+  stuff|                      
+  submarine|                  
+  submerge|                   
+  submit|                     
+  subsequent|                 
+  substance|                  
+  substantial|                
+  substitute|                  
+  subtract|                   
+  subway|                     
+  succession|                 
+  successive|                 
+  suck|                       
+  sufficient|                 
+  suit|                       
+  sulfur|                     
+  sulphur|                    
+  sum|                        
+  summarize|                  
+  superficial|                
+  superior|                   
+  supplement|                 
+  suppose|                    
+  supreme|                    
+  surgery|                    
+  surrender|                  
+  surroundings|                
+  survey|                     
+  survive|                    
+  suspect|                     
+  suspend|                    
+  suspicion|                  
+  suspicious |                
+  sustain|                    
+  swallow|                    
+  swallow|                    
+  sway|                       
+  swear|                      
+  sweater|                    
+  sweep|                      
+  swell|                      
+  swift|                      
+  swing|                      
+
+  tailor|                     
+
+ 
+
+  tale|                       
+  talent|                     
+  talk|                       
+  tame|                       
+  tank|                       
+  tap|                        
+  tap|                        
+  taste|                      
+  technical|                  
+  technician|                 
+  tedious|                    
+  telegram|                   
+  telescope|                  
+  temple|                     
+  temporary|                  
+  tempt|                      
+  temptation|                 
+  tend|                       
+  tend|                       
+  tendency|                   
+  tender|                     
+  tense|                      
+  tense|                      
+  tension|                    
+  terminal|                   
+  terrible|                   
+  territory|                  
+  terror|                     
+  textile|                    
+  theoretical|                
+  thereby|                    
+  therefore|                  
+  thermometer|                
+  thickness|                  
+  thorough|                   
+  thoughtful|                 
+  thread|                     
+  threat|                     
+  threaten|                   
+  thrive|                     
+  throat|                     
+  throughout|                 
+
+  toast|                      
+                   
+  toe|                        
+  toilet|                     
+  tolerance|                  
+  tolerate|                   
+  tone|                       
+  torch|                      
+  torture|                    
+  total|                      
+  touch|                      
+  tough|                      
+  tour|                       
+  tourist|                    
+  towel|                      
+  tower|                      
+  trace|                      
+  track|                      
+  tractor|                    
+  trade|                      
+  traffic|                    
+  tragedy|                    
+  trail|                      
+  transfer|                   
+  transform|                  
+  transformation|              
+  transformer|                
+  transistor|                 
+  transmission|               
+  transmit|                   
+  transparent|                 
+  transport|                  
+  transportation|               
+  trap|                       
+  tray|                       
+  treasure|                   
+  treat|                      
+  treatment|                  
+  treaty|                     
+  tremble|                    
+  tremendous|                 
+  trend|                      
+  trial|                      
+  triangle|                   
+  trick|                      
+  trim|                       
+  triumph|                    
+  troop|                      
+  tropical|                   
+  troublesome|                
+  trumpet|                    
+  trunk|                      
+  trust|                      
+  truth|                      
+  tube|                       
+
+
+  ultimate|                   
+  unconscious|                
+  uncover|                    
+  undergo|                    
+  undergraduate|              
+  underline|                  
+  underneath|                 
+  undertake|                  
+  undo|                       
+  undoubtedly|                 
+  uneasy|                     
+ 
+  upward|                     
+      
+  utter|                        
+
+
+  vacant|                     
+         
+  vanish|                     
+  vapor|                     
+  variable|                   
+  variation|                  
+  variety|                    
+  various|                    
+  vary|                       
+  vast|                       
+  vehicle|                    
+  velocity|                   
+  venture|                    
+  verify|                     
+  version|                    
+  vertical|                   
+  vessel|                     
+      
+  violent|                    
+  violet|                                                    
+  whilst|                     
+  
+  wire|                       
+  wit|                        
+  withdraw|                   
+  withstand|                  
+  witness|                    
+  wooden|                     
+  wool|                       
+  workman|                    
+  workshop|                                
+  yield|                      
+  youth|                      
+  zone  ;                       
+
+          
+public <digits> = <digit>;

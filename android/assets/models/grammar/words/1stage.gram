@@ -1,0 +1,24 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> =	welcome                |
+			good               |
+			thanks                |
+			boy                |
+			girl                 |
+			football              |
+			morning               |
+			sweet                |
+			blue                |
+			color                   |
+			happy              |
+			sleep               |
+			fast                |
+			believe                   |
+			good night	|
+			have fun	|
+			laugh					 ;
+
+          
+public <digits> = <digit>;

@@ -1,0 +1,24 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> =	danger               |
+			decent                |
+			calm               |
+			damage                |
+			early                |
+			fear                 |
+			glory              |
+			handsome               |
+			image                |
+			dark                |
+			manage               |
+			neighbor                |
+			opportunity              |
+			park                   |
+			come on	|
+			let's go	|
+			go home					 ;
+
+          
+public <digits> = <digit>;

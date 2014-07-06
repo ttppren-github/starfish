@@ -1,0 +1,13 @@
+models/acoustic/hub4wsj_sc_8k/feat.params
+models/acoustic/hub4wsj_sc_8k/mdef
+models/acoustic/hub4wsj_sc_8k/means
+models/acoustic/hub4wsj_sc_8k/noisedict
+models/acoustic/hub4wsj_sc_8k/sendump
+models/acoustic/hub4wsj_sc_8k/transition_matrices
+models/acoustic/hub4wsj_sc_8k/variances
+models/grammar/words/1stage.gram
+models/grammar/words/2stage.gram
+models/grammar/words/3stage.gram
+models/grammar/words/4stage.gram
+models/grammar/words/5stage.gram
+models/lm/en_US/cmu07a.dic
